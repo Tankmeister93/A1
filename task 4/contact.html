@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Frank's Portfolio</title>
+        <link rel="icon" type="image-icon" href="https://wikipedia.com/static/favicon/wikipedia.ico"> <!--change favicon later-->
+    </head>
+    <body>
+        <header>
+            <img src="img/logo.jpg" alt="logo"><!-- custom placeholder-->
+                <nav>
+                    <ul role="menubar">
+                        <li role="presentation"><a href="index.html">Home</a></li>
+                        <li role="presentation"><a href="about.html">About Me</a></li>
+                        <li role="presentation"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+        </header>
+            <section>
+                <contact>
+
+                    <label for="my-phone">Phone:</label>
+                    <a href="tel: "+14036223067">Tel:14036223067</a><br>
+                    <label for="email">Email:</label>
+                    <a href="mailto: frank.friesen19@gmail.com" id:Email>frank.friesen19@gmail.com</a><br>
+
+                    <h1>Contact Me</h1>
+                    <form action="/login-form-action" method="GET" id="contact-form">
+                        <label class="standard-label" for="contact-email">Email: </label>
+                        <input type="email" id="contact-email" required><br>
+                        <label class="standard-label" for="contact-phone">Telephone: </label>
+                        <input type="my-phone" id="contact-phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required><br>
+                        <label for="my-input" class="standard-label">Message: </label>
+                        <textarea id="my-input" required></textarea><br>
+                        <button type="submit">submit</button>
+                    </form>
+                </contact>
+            </section>
+            
+            <footer>
+                <h1>Find me on</h1><!--Social media icons-->
+                <a href="14036223067"><img src="img/phone.svg" alt="Telephone"></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox"><img src="img/Gmail.svg" alt="Gmail"></a>
+                
+            </footer> 
+    <script src="js/tota11y.min.js"></script>
+    </body>
+    
+</html>
