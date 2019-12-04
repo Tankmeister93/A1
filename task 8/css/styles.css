@@ -13,7 +13,7 @@ Grid Color: #9dd8c8;
   --button-color: #66cfc9;
   --hover-color: #6f86ad;
   --contact-color: #95add5;
-  --span-color: #f7b501;
+  --span-color: #000000;
   --grid-color: #9dd8c8;
 
 }
@@ -27,6 +27,7 @@ Grid Color: #9dd8c8;
   font-weight: 700;
 }
 .body {
+  background: #b4e6f4;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
   font-size: 16px;
