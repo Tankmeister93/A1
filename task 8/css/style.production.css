@@ -1,4 +1,4 @@
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
 /* Colors used
 Text Color: #000000;
@@ -11,6 +11,7 @@ Grid Color: #9dd8c8;
 */
 @import url("sanitize.css");
 * {
+  -webkit-box-align: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -197,7 +198,6 @@ Grid Color: #9dd8c8;
     text-align: center;
   }
   .contact-form {
-    min-width: 360px;
     max-width: 2002px;
     margin: auto;
     padding: 0px 10px;

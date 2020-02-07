@@ -19,6 +19,7 @@ Grid Color: #9dd8c8;
 }
 @import url("sanitize.css");
 * {
+  -webkit-box-align: center;
   box-sizing: border-box;
 }
 .head {
@@ -141,7 +142,6 @@ Grid Color: #9dd8c8;
     text-align: center;
   }
   .contact-form {
-    min-width: 360px;
     max-width: 2002px;
     margin: auto;
     padding: 0px 10px;
